@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Online Aptitude Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container" id="quiz">
+
+<h1>Online Aptitude Test</h1>
+<p style="color: gray;">Practice, Analyze, Improve</p>
+
+<h3>Time left: <span id="timer">1:00</span></h3>
+
+<!-- Question Navigation -->
+<div id="navigation"></div>
+
+<div class="question-bank">
+
+<!-- Progress bar -->
+<div class="progress-bar">
+<div id="progress-fill"></div>
+</div>
+
+<p id="progress"></p>
+
+<!-- Question -->
+<h3 id="question">Question appears here</h3>
+
+<!-- Answers -->
+<div id="answers"></div>
+
+</div>
+
+<!-- Next button -->
+<button id="nextBtn" onclick="nextQuestion()">Next Question</button>
+
+</div>
+
+
+<!-- Result Page -->
+<div id="result" style="display:none; text-align:center;">
+<h2>Test Result</h2>
+
+<p id="score"></p>
+<p id="percentage"></p>
+<p id="status"></p>
+
+<div id="review"></div>
+<button onclick="restartTest()">Restart Test</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
