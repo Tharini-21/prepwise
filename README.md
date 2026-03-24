@@ -22,4 +22,10 @@ It allows users to attempt quizzes, navigate between questions, and track their 
 
 ##  Screenshots
 PrepWise – Online Aptitude Test
+prepwise UI.png
+A dynamic quiz interface featuring real-time timer, progress tracking, and seamless question navigation designed for efficient exam preparation.
+
+Answer Selection
+
+Enhanced user interaction with dynamic hover effects and visual feedback, where selected options are clearly highlighted using a green border for better usability.
 
